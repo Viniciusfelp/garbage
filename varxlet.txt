@@ -1,0 +1,19 @@
+/* var e let declaram variáveis*/
+
+var a=3;
+let b=90;
+
+/* O interessante é que eu posso declarar var mais de uma vez ao longo do meu 
+código, o que não acontece com let*/
+
+var a =6;
+/*Nesse caso, eu posso redeclarar a variavel a, o que em java daria erro.
+Se eu fizer a mesma coisa com let, vai dar erro, ele meio que imita java.Logo, 
+nunca redeclare a let para uma mesma variável*/
+
+const c=50;
+
+console.log(a);
+
+/*Por ser uma constante, eu nao posso atribuir outro falar para aquele espa-ço
+da memória, caso faça isso, dará erro.*/
